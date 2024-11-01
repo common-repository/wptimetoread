@@ -1,0 +1,105 @@
+[
+    {
+        "name": "davechild/textstatistics",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/DaveChild/Text-Statistics.git",
+            "reference": "6196462b4fe730a8ff0019036baf362295c161b3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/DaveChild/Text-Statistics/zipball/6196462b4fe730a8ff0019036baf362295c161b3",
+            "reference": "6196462b4fe730a8ff0019036baf362295c161b3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.2.*"
+        },
+        "suggest": {
+            "ext-bcmath": "More accurate floating point calculations.",
+            "ext-mbstring": "Handle multi-byte text properly."
+        },
+        "time": "2015-04-22 14:55:55",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "DaveChild\\TextStatistics": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Dave Child",
+                "email": "dave@addedbytes.com",
+                "homepage": "https://www.addedbytes.com/",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP package to measure the readability of text according to various algorithms.",
+        "homepage": "https://github.com/DaveChild/Text-Statistics"
+    },
+    {
+        "name": "kdaviesnz/readability",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kdaviesnz/readability.git",
+            "reference": "04ab204cf00851abe921d48536c4430c0e1840b4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kdaviesnz/readability/zipball/04ab204cf00851abe921d48536c4430c0e1840b4",
+            "reference": "04ab204cf00851abe921d48536c4430c0e1840b4",
+            "shasum": ""
+        },
+        "require": {
+            "davechild/textstatistics": "1.0.1",
+            "php": "~7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": ">=5.4.3",
+            "squizlabs/php_codesniffer": "^2.3"
+        },
+        "time": "2017-10-24 19:53:20",
+        "type": "component",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "kdaviesnz\\readability\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": ":kdavies",
+                "email": "kdaviesnz@gmail.com",
+                "homepage": "https://github.com/kdaviesnz/readability/",
+                "role": "Developer"
+            }
+        ],
+        "description": "Wrapper for davechild/textstatistics",
+        "homepage": "https://github.com/kdaviesnz/readability/",
+        "keywords": [
+            "readability",
+            "text"
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+{
+    "name": "kdaviesnz/timetoread",
+    "type": "component",
+    "description": "Gets how long some text will take to read based not just on the length of text but difficulty.",
+    "keywords": [
+        "text",
+        "time to read"
+    ],
+    "homepage": "https://github.com/kdaviesnz/timetoread/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":kdavies",
+            "email": "kdaviesnz@gmail.com",
+            "homepage": "https://github.com/kdaviesnz/timetoread/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~7.0",
+        "kdaviesnz/readability": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : ">=5.4.3",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "kdaviesnz\\timetoread\\": "src"
+        }
+    }
+}
